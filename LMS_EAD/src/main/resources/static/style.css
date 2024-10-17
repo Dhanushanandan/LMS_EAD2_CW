@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+    background-image: linear-gradient(rgba(10, 15, 15, 0.2),rgba(2, 2, 2, 0.3)),url(Images/INCuDP.jpg);
+    background-size: cover;
+    /*height: 100vh;*/
+    /*width: 100vw;*/
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 4.5em;
+    background:linear-gradient(to right,rgb(35, 212, 53),#e20d0d 90%,#ffffff);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: Gradiant 3s linear infinite;
+}
+@keyframes Gradiant{
+    0%{
+        background-position: 0% 75%;
+    }50%{
+         background-position: 100% 50%;
+     }100%{
+          background-position: 0% 70%;
+      }
+}
+
+section {
+    color: black;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgba(10, 15, 15, 0.2),rgba(2, 2, 2, 0.3)),url(Images/body.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    background-color: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#nav{
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin: 6.5em;
+}
+#nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+#nav a:hover {
+    color: limegreen;
+    font-size: 1.5em;
+}
+
+#nav2{
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    /*margin: 6.5em;*/
+}
+#nav2 a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+#nav2 a:hover {
+    color: limegreen;
+    font-size: 1.5em;
+}
+
+h2,h3{
+    color: white;
+}

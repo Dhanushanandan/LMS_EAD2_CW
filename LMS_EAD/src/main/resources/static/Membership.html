@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Library Management System</h1>
+
+
+<section id="books-section" style="display: none">
+    <h2>Books</h2>
+    <ul id="books-list"></ul>
+    <h3>Add New Book</h3>
+    <form id="book-form" >
+        <input type="text" id="book-id" placeholder="Book ID" required>
+        <input type="text" id="book-title" placeholder="Title">
+        <input type="text" id="book-author" placeholder="Author">
+        <button type="submit" data-action="Add OR Update Book">Add OR Update Book</button>
+        <button type="submit" data-action="Delete Book">Delete Book</button>
+    </form>
+</section>
+
+<section id="members-section" style="display: none">
+    <h2>Members</h2>
+    <ul id="members-list"></ul>
+    <h3>Add New Member</h3>
+    <form id="member-form">
+        <input type="text" id="member-id" placeholder="Member ID" required>
+        <input type="text" id="member-name" placeholder="Name">
+        <input type="email" id="member-email" placeholder="Email">
+        <input type="text" id="member-phone" placeholder="Phone">
+        <button type="submit" data-action="Add OR Update Member">Add OR Update Member</button>
+        <button type="submit" data-action="Delete Member">Delete Member</button>
+    </form>
+</section>
+
+<section id="memberships-section" >
+    <h2>Memberships</h2>
+    <ul id="memberships-list"></ul>
+    <h3>Add New Membership</h3>
+    <form id="membership-form">
+        <input type="text" id="membership-id" placeholder="Membership ID" required>
+        <input type="text" id="membership-member-id" placeholder="Member ID">
+        <input type="date" id="membership-end" placeholder="Membership End Date">
+        <button type="submit" data-action="Add OR Update Membership">Add OR Update Membership</button>
+        <button type="submit" data-action="Delete Membership">Delete Membership</button>
+    </form>
+</section>
+
+<div id="nav2">
+    <a href="index.html" id="title1">Home</a>
+</div>
+
+<script src="scripts/app.js"></script>
+</body>
+</html>
